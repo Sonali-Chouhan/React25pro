@@ -22,7 +22,6 @@ const Userform = () => {
             <input type="text" onChange={(e)=>setstate({...state,email:e.target.value})} /><br/>
             <input type="number" onChange={(e:any)=>setstate({...state,age:e.target.value})} />
             
-            
         </div>
     )
 }
